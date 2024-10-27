@@ -1,0 +1,24 @@
+.profil-card{
+    padding: 20px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.bg-green{
+    background-color: #2d572c;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.profil-card img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+}
+
+.row > .col-md-3{
+    padding: 0;
+}
