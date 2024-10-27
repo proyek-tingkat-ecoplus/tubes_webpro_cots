@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-primary {
+    background-color: #003030 !important;
+    color: white    !important;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    min-height: 100vh;
+}
+
+.sidebar-title {
+    font-size: 1.5em;
+    color: #264417;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #264417;
+    font-size: 1.1em;
+}
+
+.nav-link.active {
+    color: #5e7a43;
+    font-weight: bold;
+}
+
+.profile-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.profile-form h3 {
+    color: #5e7a43;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #cccccc;
+    border: none;
+    border-color: #264417;
+}
+
+.btn-success {
+    background-color: #5e7a43;
+    border: none;
+}

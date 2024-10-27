@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile - EcoPulse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand ms-5 text-white" href="#">Ecopulse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link text-white " href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="form.html">Form</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white active" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="kontak.html">Kontak</a>
+                </li>
+              </ul>
+            </div>
+            <form class="form-inline">
+              <a class="btn btn-light me-5" href="">Login</a>
+            </form>
+          </nav>
+    
+            <!-- Main Content -->
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Edit Profile</h1>
+                    <div class="search-bar">
+                        <input type="text" class="form-control" placeholder="Search...">
+                    </div>
+                </div>
+    
+                <!-- Profile Form -->
+                <div class="profile-form">
+                    <div class="text-center">
+                        <img src="profile.png" class="rounded-circle mb-3" alt="Profile Picture">
+                        <h3>Rendy Nugraha</h3>
+                        <p>Kepala Staff Infrastruktur</p>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">No Telephone</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="currentPassword" class="form-label">Ubah Password</label>
+                            <input type="password" class="form-control" id="currentPassword">
+                        </div>
+                        <div class="mb-3">
+                            <label for="newPassword" class="form-label">Ubah Password</label>
+                            <input type="password" class="form-control" id="newPassword">
+                        </div>
+                        <button type="button" class="btn btn-secondary">Kembali ke dashboard</button>
+                        <button type="submit" class="btn btn-success">Selesai</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
