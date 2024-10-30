@@ -180,3 +180,46 @@ p {
 .active {
     color: gold !important;
 }
+
+/* section form */
+.search-bar {
+    background-color: #004d40;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.search-bar input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.search-bar button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.post-card {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.post-card .btn {
+    background-color: #ffcc00;
+    color: #004d40;
+}
+.post-card .btn:hover {
+    background-color: #e6b800;
+}
+.bg-primary {
+    background-color: #003030 !important;
+    color: white    !important;
+}
+.btn-primary {
+    background-color: #003030 !important;
+    color: white    !important;
+}
